@@ -1,0 +1,102 @@
+/* $Id: tangotipica.css 5 2006-07-01 12:04:25Z wim $ */
+BODY {margin-left: 40px; margin-top: 0px; padding: 0px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 0.9em; line-height: normal; background-color:#000000; color: #DDDDDD; font-weight: normal;  z-index: 1}
+
+#music {float: left; clear: none; width: auto; border: solid 0px white; padding: 0px; padding-top: 5px; margin: 0px; width: 90%; height: 35px; text-align: right}
+#musicinfo {position: absolute; right: 10%; top:35px; border: dotted white 1px; width: 250px; margin: 2px 2px 3px 2px; padding: 5px 3px 5px 5px; font-size: 0.8em; text-align: left; z-index: 5; background-color: #000000;opacity: 0.85 }
+#lino {float: left; clear: none; width: auto; border: solid 0px black; padding: 0px; margin-top: 0px }
+#logoandnav {float: left; clear: none; width: 50%; border: solid 0px green; padding: 0px; margin-top: 0px }
+#news {float: left; clear: both; width: 90%; border: solid 0px black}
+
+#pagenav {float: left; width: auto; border: solid 0px black; padding: 0px; margin-top: 40px }
+#pagecontent {float: left; clear: none; width: 60%; border: solid 0px black; padding: 0px; padding-top: 40px; margin-top: 0px}
+#pagebottomnav {float: left; clear: both; width: 90%; border: solid 0px black }
+
+img {border: solid 0px black}
+.caption {font-size: 0.9em}
+.slide {border: solid 1px white; background-color: white}
+.slidenav { text-align: center}
+
+.positionredbullets {line-height: 40px; vertical-align: top; margin-top: 0px; margin-left: 20px; padding-top: 0px; display: inline;}
+.positionbullets {margin-left: 30px; width: 30px }
+.baseline {margin-top: 10px; margin-bottom: 10px; margin-left: 0px; padding: 0px;font-family: Palatino,serif,Times New Roman; font-size: 1.4em; font-weight: bold;}
+.baselinepage {margin-top: 10px; margin-bottom: 10px; margin-left: 0px; padding: 0px;font-family: Palatino,serif,Times New Roman; font-size: 1.4em; font-weight: bold;}
+/* .baselinepage:before {content: url("images/bullet.gif");} */
+.h2page {margin-top: 40px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1.1em; font-weight: bold;}
+.h3page {margin-top: 30px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1.0em; font-weight: bold; }
+.homepagetext {margin: 0px; margin-bottom: 15px; }
+.navigationlist {list-style-type: none; margin: 0px; padding: 0px; margin-left: 0px; margin-bottom: 15px}
+.subnavigationlist {list-style-type: none; margin: 0px; padding: 0px; margin-left: 30px; margin-bottom: 0px; font-size: 0.85em}
+.subnavigationitem {display: inline}
+/* .navigationlist:before {content: url("images/bullets_right.gif");} */
+.pagenavigationlist {list-style-type: none; margin: 0px; padding: 0px; margin-left: 0px; margin-top: 20px; margin-bottom: 25px}
+.pagetext {margin: 0px; padding: 0px; margin-left: 20px; margin-top: 20px;}
+.seealso {margin: 0px; padding: 0px; margin-left: 20px; margin-top: 20px; font-size: 1em; font-weight: bold}
+/* .seealso:before {content: url("images/bullets_left.gif");}
+.seealso:after {content: url("images/bullets_red.gif");} */
+
+.positionbulletsnav {margin-left: 30px; border: 1px solid cyan; width: auto}
+
+.navigation {margin: 0px; padding: 0px; font-weight: bold; font-size: 1.1em;}
+/* .navigation:before {content: url("images/bullet.gif");} */
+.pagenavigation {margin: 0px; padding: 0px; font-weight: bold; font-size: 1em;}
+/* .pagenavigation:before {content: url("images/bullet.gif");} */
+.pagenavigationsel {margin: 0px; padding: 0px; font-weight: bold; font-size: 1em; color: #aa0000;}
+/* .pagenavigationsel:before {content: url("images/bullet_red.gif");} */
+
+.pagenavigationnews {margin: 0px; padding: 0px; font-weight: bold; font-size: 1em; margin-bottom: 30px}
+.pagenavigationnews:before {content: url("images/bullets_left.gif");}
+.newsheading {font-weight: bold; font-size: 1.2em; margin-top: 10px;margin-bottom: 0px; padding: 0px; margin-left: 30px; color: #aa0000;}
+/* .newsheading:before {content: url("images/bullet_news.gif");} */
+.newstext {margin-left: 32px; margin-top: 8px; padding: 0px; }
+.newstextborder {border: dotted white 1px; padding: 5px 10px 10px 10px; margin: 20px 0px 0px 32px}
+
+.indent {margin: 0px 0px 20px 20px; border: dotted 1px #FFFFFF; padding: 0px 0px 0px 10px }
+
+.taglist {list-style-type: none; margin: 0px; margin-top: 20px; padding: 0px; margin-left: 0px; margin-bottom: 20px}
+.tags {margin: 0px; padding: 0px; font-weight: normal; font-size: 0.8em; display: inline;}
+
+.textnavlist {list-style-type: none; margin: 0px; margin-top: 20px; padding: 0px; margin-left: 0px; margin-bottom: 20px}
+.textnav {margin: 0px; padding: 0px; font-weight: bold; font-size: 0.8em; display: inline;}
+/* .textnav:before {content: url("images/single_bullet.gif"); } */
+.textnavsel {margin: 0px; padding: 0px; font-weight: bold; font-size: 0.8em; display: inline; color: #aa0000}
+.textnavsel2 {margin: 0px; padding: 0px; font-weight: bold; display: inline; color: #aa0000}
+/* .textnavsel:before {content: url("images/single_bullet_red.gif"); } */
+.textnavlast {margin: 0px; padding: 0px; font-weight: bold; font-size: 0.8em; display: inline; }
+
+
+.headinglist {margin-top: 10px; margin-left: -20px; padding: 0px}
+.itemlist {margin-left: -20px; padding: 0px}
+.newslist {margin: 0px 0px 0px 32px; padding: 0px}
+.newslistitem {margin: 0px 0px 0px 0px; padding: 0px}
+.listintro {margin: 0px 0px 0px 32px}
+
+.footertext {font-size: 0.8em; font-weight: normal; text-align: right; }
+.emphasis {font-weight: bold;}
+.emphasiscolour {font-weight: bold; color: #AA0000;}
+
+
+
+A:active {text-decoration: underline; color: #DDDDDD;}
+A:link {text-decoration: underline; color: #DDDDDD;}
+A:visited {text-decoration: underline; color: #CCCCCC;}
+A:hover {text-decoration: underline; color: #aa0000;}
+
+.navigationlink {text-decoration: none; color: #DDDDDD;}
+A.navigationlink:active {text-decoration: none; }
+A.navigationlink:link {text-decoration: none; }
+A.navigationlink:visited {text-decoration: none; }
+A.navigationlink:hover {text-decoration: none; color: #aa0000;}
+
+
+.textnavlink {text-decoration: none; color: #DDDDDD;}
+A.textnavlink:active {text-decoration: none; }
+A.textnavlink:link {text-decoration: none; }
+A.textnavlink:visited {text-decoration: none; }
+A.textnavlink:hover {text-decoration: none; color: #aa0000;}
+
+
+.seealsolink {text-decoration: none; color: #DDDDDD;}
+A.seealsolink:active {text-decoration: none; }
+A.seealsolink:link {text-decoration: none; }
+A.seealsolink:visited {text-decoration: none; }
+A.seealsolink:hover {text-decoration: none; color: #aa0000;}
