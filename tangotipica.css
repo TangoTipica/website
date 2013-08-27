@@ -74,8 +74,6 @@ img {border: solid 0px black}
 .emphasis {font-weight: bold;}
 .emphasiscolour {font-weight: bold; color: #AA0000;}
 
-
-
 A:active {text-decoration: underline; color: #DDDDDD;}
 A:link {text-decoration: underline; color: #DDDDDD;}
 A:visited {text-decoration: underline; color: #CCCCCC;}
@@ -86,6 +84,12 @@ A.navigationlink:active {text-decoration: none; }
 A.navigationlink:link {text-decoration: none; }
 A.navigationlink:visited {text-decoration: none; }
 A.navigationlink:hover {text-decoration: none; color: #aa0000;}
+
+.largelink {text-decoration: underline; color: #AA0000; font-size: 1.4em; font-weight: bold;}
+A.largelink:active {text-decoration: underline; color: #AA0000; font-size: 1.4em; font-weight: bold;}
+A.largelink:link {text-decoration: underline; color: #AA0000; font-size: 1.4em; font-weight: bold;}
+A.largelink:visited {text-decoration: underline; color: #AA0000; font-size: 1.4em; font-weight: bold;}
+A.largelink:hover {text-decoration: underline; color: #AA0000; font-size: 1.4em; font-weight: bold;}
 
 
 .textnavlink {text-decoration: none; color: #DDDDDD;}
