@@ -26,7 +26,7 @@ img {border: solid 0px black}
 .homepagetext {margin: 0px; margin-bottom: 15px; }
 .navigationlist {list-style-type: none; margin: 0px; padding: 0px; margin-left: 0px; margin-bottom: 15px}
 .subnavigationlist {list-style-type: none; margin: 0px; padding: 0px; margin-left: 30px; margin-bottom: 0px; font-size: 0.85em}
-.subnavigationitem {display: inline}
+.subnavigationitem {display: inline;}
 /* .navigationlist:before {content: url("images/bullets_right.gif");} */
 .pagenavigationlist {list-style-type: none; margin: 0px; padding: 0px; margin-left: 0px; margin-top: 20px; margin-bottom: 25px}
 .pagetext {margin: 0px; padding: 0px; margin-left: 20px; margin-top: 20px;}
