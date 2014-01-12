@@ -47,7 +47,7 @@ ok_to_play=true;
 </script>
 
 <!-- Include the jQuery library (local or CDN) -->
-<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
 
 <!-- Include the plugin *after* the jQuery library -->
 <script src="js/bjqs-1.3.min.js"></script>
@@ -58,7 +58,7 @@ ok_to_play=true;
 
 <div id="music" style="display: none">
 <img src="images/note.gif" alt="">&nbsp;<a href="javascript:toggle_sound()" style="display: none" id="toggleid">Stop music</a> [<a href="javascript:Show('musicinfo')">about music</a>]
-<div id="musicinfo">The sample is from '<span lang="es-ar">Clavel Rojo</span>', a tango composed by <span lang="nl">Carel Kraayenhof</span> and played by <a href="http://www.bloomline.net/canyengue"><span lang="nl">Carel Kraayenhof</span> <span lang="es-ar">y su Sexteto Canyengue</span></a>. This internationally renowned <span lang="es-ar">sexteto</span> from the Netherlands plays in the style of <span lang="es-ar">Osvaldo Pugliese</span> and <span lang="es-ar">Astor Piazzolla</span>. 
+<div id="musicinfo">The sample is from '<span lang="es-ar">Clavel Rojo</span>', a tango composed by <span lang="nl">Carel Kraayenhof</span> and played by <a href="http://www.bloomline.net/canyengue"><span lang="nl">Carel Kraayenhof</span> <span lang="es-ar">y su Sexteto Canyengue</span></a>. 
 </div>
 </div>
 
@@ -68,37 +68,34 @@ ok_to_play=true;
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="about.html#pagecontent" class="navigationlink">About us</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="classes.html#pagecontent" class="navigationlink">Classes</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="workshops.html#pagecontent" class="navigationlink">Workshops</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="teachingapproach.html#pagecontent" class="navigationlink">Our teaching approach</a></li>
+<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="ourvision.html#pagecontent" class="navigationlink">Our vision</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="performances.html#pagecontent" class="navigationlink">Performances</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="videos/index.html#pagecontent" class="navigationlink">Videos</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="contact.html#pagecontent" class="navigationlink">Contact us</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="collaboration.html#pagecontent" class="navigationlink">Tango projects</a></li>
+<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="contact.html#pagecontent" class="navigationlink">Contact us</a></li>
 </ul>
+
+
 </div><!-- pagenav -->
 <!-- ================================================ START OF PAGE CONTENT ================================================ -->
 <div id="pagecontent" >
 <a href="index.html"><img src="images/logo_red.gif" alt="Tango Tipica"></a>
-<h1 class="baselinepage">A passion for Tango - Authentic Argentinean Tango in Glasgow</h1>
-<div class="homepagetext">Tango as danced in the Salons of Buenos Aires in the Golden Age. Classes, workshops and performances.</div>
+<h1 class="baselinepage">A passion for Authentic Argentinean Tango</h1>
+<div class="homepagetext">Tango as danced in the Salons of Buenos Aires in the 1940s Golden Age. Classes, workshops and performances by Catherine Daniela Dogaer and Wim Taghon.</div>
 
 <!--<div class="pagetext">-->
 <p  style="text-align:center">
-<!--
-<img src="photos/pics/TT-banner-2014.jpg" alt="Photo of Tango Tipica dancing in Riverside Museum by Dean Kimmet">
-<img src="photos/pics/hbsmall.jpg" alt="Photo of Tango Tipica dancing in Hillhead Bookclub by Annalisa Simonella">  
-<img src="photos/pics/flatsmall.jpg" alt="Photo of Tango Tipica in the Westend by Annalisa Simonella" >  
-<img src="photos/pics/vbsmallal.jpg" alt="Photo of Tango Tipica at La Vallee Blanche Byres Road by Annalisa Simonella" >  
--->
+
 <div id="banner-fade">
     <ul class="bjqs">
     <li><img src="slideshow/slideshow_1.jpg" alt="Photo of Catherine & Wim dancing"></li>
     <li><img src="slideshow/slideshow_2.jpg" alt="Photo of Catherine & Wim dancing"></li>
     <li><img src="slideshow/slideshow_3.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_4.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_5.jpg" alt="Photo of Catherine & Wim dancing"></li>
     <li><img src="slideshow/slideshow_6.jpg" alt="Photo of Catherine & Wim dancing"></li>
+    <li><img src="slideshow/slideshow_4.jpg" alt="Photo of Catherine & Wim dancing"></li>
     <li><img src="slideshow/slideshow_7.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_8.jpg" alt="Photo of Catherine & Wim dancing"></li>
+    <li><img src="slideshow/slideshow_9.jpg" alt="Photo of Catherine & Wim dancing"></li>
+    <li><img src="slideshow/slideshow_10.jpg" alt="Photo of Catherine & Wim dancing"></li>
     </ul>
 </div>
 <script class="secret-source">
@@ -107,6 +104,12 @@ ok_to_play=true;
           $('#banner-fade').bjqs({
             height      : 300,
             width       : 600,
+// animation values
+animtype : 'fade', // accepts 'fade' or 'slide'
+animduration : 500, // how fast the animation are
+animspeed : 4000, // the delay between each slide
+automatic : true, // automatic
+
 	    nexttext : '<img src="./images/bullets_ss.png">', 
 	    prevtext : '<img src="./images/bullets_ss.png">', 
 	    showmarkers : false,
@@ -118,47 +121,25 @@ ok_to_play=true;
 </p>
 
 <p class="newstextborder">
-<a class="largelink" href="classes.html">Beginners Classes January 2014</a><br>
+<a class="largelink" href="classes.html">Beginners Tango Classes January 2014</a><br>
 <br><span class="emphasiscolour">Fast-Track Beginners series now fully booked</span><br>
-<span class="emphasis">Contact us to be added to the mailing list for the Absolute Beginners series in September 2014</span> <a href="mailto:contact@tangotipica.info">contact@tangotipica.info</a>
+<span class="emphasis">Contact us to be added to the mailing list for the Absolute Beginners Tango classes in September 2014</span> <a href="mailto:contact@tangotipica.info">contact@tangotipica.info</a>
 
 <br>Everyone books with a dance partner &mdash; no compulsory partner rotation. 
-<!--
-<a class="largelink" href="classes.html">Classes</a><br><span class="emphasis">Last chance until Autumn next year! Only place for one dance couple left.</span>
-<br>The series of Absolute Beginners Authentic Tango Classes in Glasgow starts on Friday 4 October. You can <a href="classes.html#onlinebooking">book online</a>. 
--->
+
 <a href="classes.html">Read more about our tango classes in Glasgow</a>. 
 <br>
-<!--
 
-<a href="https://twitter.com/TangoTipica" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow @TangoTipica</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
--->
 <br>
 <a href="http://www.facebook.com/pages/TangoTipica/160151457348570"><img src="images/facebook.png" alt="Visit us on Facebook"></a><a href="http://www.twitter.com/TangoTipica"><img src="images/twitter.png" alt="Follow us on Twitter"></a><a href="http://www.youtube.com/watch?v=-Lr5lBDmAqg"><img src="images/yt-logo-circle.png" alt="Watch us on YouTube"></a>
 </p>
-<!--
-<p class="newstextborder"><span class="emphasiscolour">New charity!</span> We are pleased to announce that we will be supporting local children's charity <a href="http://www.withkids.org.uk">With Kids</a> this year (Charity Registration No. SC022467).
-</p>
--->
 
-<p class="newstextborder"><span class="emphasiscolour">Volunteer position</span> Tango Tipica is not-for-profit and supports a local children's charity. We are looking for a volunteer to help us with promotion and marketing of tango performances and workshops. Please <a href="contact.html">contact us</a> if you are interested. 
-</p>
-<!--
-<p class="newstextborder"><span class="emphasiscolour">Press coverage</span> We were <a href="http://np.netpublicator.com/netpublication/n42480444">featured in Glasgow Westend Magazine </a>for our support over the past years to local children's charity Volunteer Tutors Organisation Glasgow. 
-</p>
--->
-<!--
-<p class="newstextborder">Visit our <span class="emphasiscolour">28 Tangos</span> page &mdash; a tango activity for every day in February. <a href="twenty_eight_tangos.html">Read more</a>.</p>-->
-<!--
-<p class="newstextborder"><span class="emphasiscolour">Tang-o-gram</span> Surprise your friends with an authentic tango performance - for birthdays, anniversaries, private parties! <a href="performances.html">Read more about our performances</a> or <a href="contact.html">contact us</a>.</p>
--->
 
 
 
 <br>
 
-<p class="newstext">Tango Tipica supports local children's charity <a href="http://www.withkids.org.uk">With Kids</a> by donating the proceeds of all tango activities.</p>
+<p class="newstext">Tango Tipica supports local children's charity <a href="http://www.withkids.org.uk">With Kids</a>.</p>
 
 
 </div><!-- pagecontent --> 
@@ -166,37 +147,14 @@ ok_to_play=true;
 
 
 <div id="pagebottomnav">
-<!--
-<ul class="taglist">
-<li class="tags"><span class="emphasis">Tags:</span> authentic argentinian tango &ndash; argentinean tango &ndash; argentine tango &ndash; tango argentino &ndash; tango de salon &ndash; </li>
-<li class="tags">milonga &ndash; </li>
-<li class="tags">tango vals &ndash; tango waltz &ndash; </li>
-<li class="tags">tango classes in Glasgow&ndash; lessons &ndash; teacher &ndash; dance school &ndash; </li>
-<li class="tags">in Glasgow West End &ndash; Scotland &ndash; UK</li>
-</ul>
 
-
-<ul class="textnavlist">
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="classes.html#pagecontent" class="textnavlink">Classes</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="workshops.html#pagecontent" class="textnavlink">Workshops</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="private.html#pagecontent" class="textnavlink">Private tuition</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="teachingapproach.html#pagecontent" class="textnavlink">Teaching approach</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="performances.html#pagecontent" class="textnavlink">Performances</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="collaboration.html#pagecontent" class="textnavlink">Collaboration</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="photos/index.html#pagecontent" class="textnavlink">Photos</a> and <a href="videos/index.html#pagecontent" class="textnavlink">videos</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt="">Extras: <a href="music/index.html#pagecontent" class="textnavlink">music</a>, <a href="shoes/index.html#pagecontent" class="textnavlink">shoes</a> and <a href="history/index.html#pagecontent" class="textnavlink">history</a> </li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="links.html#pagecontent" class="textnavlink">Links</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="about.html#pagecontent" class="textnavlink">About</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="contact.html#pagecontent" class="textnavlink">Contact us</a></li>
-</ul>
--->
 <p class="footertext"><span class="emphasis">music:</span> '<span lang="es-ar">Clavel Rojo</span>' by <span lang="es-ar">Sexteto Canyengue</span>&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">composer: Carel Kraayenhof <br>with kind permission from <a href="http://www.bloomline.net/canyengue"><span lang="nl">Carel Kraayenhof</span> <span lang="es-ar">y su Sexteto Canyengue</span></a></p>
-<p class="footertext">site design by <span lang="nl-be">Catherine</span>&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">site implementation by Tango Tipica<br>artwork by <span lang="nl-be">Wim</span>&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">&copy; Tango Tipica&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">reproduction for strictly non-commercial purposes permitted <br>if credit given as follows 'Copyright&copy; Tango Tipica 2004'</p>
+<p class="footertext">artwork &copy; Tango Tipica&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">reproduction for strictly non-commercial purposes permitted (photos excluded) <br>if credit given as follows 'Copyright&copy; Tango Tipica 2004'</p>
 <br>
 <p class="newstext" align="right">
 <a href="http://www.facebook.com/pages/TangoTipica/160151457348570"><img src="images/facebook.png" alt="Visit us on Facebook"></a> <a href="http://www.twitter.com/TangoTipica"><img src="images/twitter.png" alt="Follow us on Twitter"></a>   <a href="http://www.youtube.com/watch?v=laGVOvXyiRg"><img src="images/youtube.png" alt="Watch us on YouTube"></a>   
 </p>
-<p class="footertext">Tango Tipica: Argentinian Tango in Glasgow&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">Last verified: 6 January 2014</p>
+<p class="footertext">Tango Tipica: Argentinian Tango in Glasgow&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">Last verified: 11 January 2014</p>
 </div><!-- pagebottomnav -->
 
 <script type="text/javascript" language="Javascript">

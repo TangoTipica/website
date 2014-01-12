@@ -6,6 +6,8 @@
 	<meta name="keywords" content="tango performances, tango display, tango demonstration, argentine tango, argentinean tango, live music, tango band, corporate entertainment, events, party, parties, argentinian tango, Tango Tipica, Glasgow">
 	<title>Tango Tipica ::  Argentine Tango Performances in Glasgow</title> 
 	<link rel="stylesheet" type="text/css" href="tangotipica.css">
+<!-- styles for slideshow -->
+	<link type="text/css" rel="Stylesheet" href="bjqs.css" >	
 	<script type="text/javascript" language="Javascript">
 if (window != top) top.location.href = location.href;
 </script>
@@ -23,149 +25,114 @@ if (window != top) top.location.href = location.href;
   })();
 
 </script>
+
+
+<!-- Include the jQuery library (local or CDN) -->
+<script src="js/jquery-1.7.1.min.js"></script>
+
+<!-- Include the plugin *after* the jQuery library -->
+<script src="js/bjqs-1.3.min.js"></script>
+
 </head>
 <body>
 
 <div id="pagenav"><a href="index.html"><img src="images/lino1.jpg"  alt="Lino drawing showing two tango dancers"></a>
 <div class="positionredbullets"><img src="images/five_white_bullets_hor.gif" alt=""></div>
 
+
 <ul class="pagenavigationlist">
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="about.html#pagecontent" class="navigationlink">About us</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="classes.html#pagecontent" class="navigationlink">Classes</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="workshops.html#pagecontent" class="navigationlink">Workshops</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="teachingapproach.html#pagecontent" class="navigationlink">Our teaching approach</a></li>
+<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="ourvision.html#pagecontent" class="navigationlink">Our vision</a></li>
 <li class="pagenavigationsel"><img src="images/bullet_red.gif" alt="">Performances</li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="videos/index.html#pagecontent" class="navigationlink">Videos</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="contact.html#pagecontent" class="navigationlink">Contact us</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="collaboration.html#pagecontent" class="navigationlink">Tango projects</a></li>
+<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="contact.html#pagecontent" class="navigationlink">Contact us</a></li>
 </ul>
+
 
 </div><!-- pagenav -->
 
 <div id="pagecontent" >
 <a href="index.html"><img src="images/logo_white.gif" alt="Tango Tipica"></a>
-<h1 class="baselinepage"><img src="images/big_bullet_red.gif" alt="">Performances at events</h1>
+<h1 class="baselinepage"><img src="images/big_bullet_red.gif" alt="">Performances</h1>
 <div class="pagetext">
-
+<p>Performances at events by Catherine Daniela Dogaer and Wim Taghon.</p>
 <p> 
-A tango performance is a great way to add a <span class="emphasis">special touch</span> to your dinner party, wedding, family party, office party or charity event.</p>
+Add a <span class="emphasis">special touch</span> to your charity ball, corporate event, dinner party or wedding.</p>
 
-<p>We dance the <span class="emphasis">authentic Argentinean tango</span> in the style of the 1940s, the era of the great tango orchestras &ndash; unique in Scotland.</p>
+<!-- Slideshow -->
+<p  style="text-align:center">
+<div id="banner-fade">
+    <ul class="bjqs">
+    <li><img src="slideshow/slideshow_8.jpg" alt="Photo of Catherine & Wim dancing"></li>    
+    <li><img src="slideshow/slideshow_1.jpg" alt="Photo of Catherine & Wim dancing"></li>
+    <li><img src="slideshow/slideshow_3.jpg" alt="Photo of Catherine & Wim dancing"></li>
+    <li><img src="slideshow/slideshow_4.jpg" alt="Photo of Catherine & Wim dancing"></li>
+    <li><img src="slideshow/slideshow_9.jpg" alt="Photo of Catherine & Wim dancing"></li>
+    </ul>
+</div>
+<script class="secret-source">
+        jQuery(document).ready(function($) {
 
-<p class="emphasis">Some examples of past performances:
+          $('#banner-fade').bjqs({
+            height      : 300,
+            width       : 600,
+// animation values
+animtype : 'fade', // accepts 'fade' or 'slide'
+animduration : 500, // how fast the animation are
+animspeed : 5000, // the delay between each slide
+automatic : true, // automatic
 
-<ul>
-<li class="itemlist">Classical performance at the opening night of the art exhibition in the chapel of Glasgow University</li>
-<li class="itemlist">Performance to live music by John Guerrier at Wellington En Fete</li>
-<li class="itemlist">Performances at charity balls</li>
-<li class="itemlist">Open-air performances in the Glasgow Botanic Gardens</li>
-<li class="itemlist">Opening and closing performance of the Bolshie Fashion Show during the Westend Festival</li>
-<li class="itemlist">Theatrical tango performance at Clydebank College Heritage Event</li>
-<li class="itemlist">Custom performances at weddings and private parties</li>
-</ul>
-<br>
+	    nexttext : '<img src="./images/bullets_ss.png">', 
+	    prevtext : '<img src="./images/bullets_ss.png">', 
+	    showmarkers : false,
+            responsive  : true
+          });
 
-<p style="text-align:center"><img src="photos/pics/chapel7BW179px.jpg" alt="Photo of tango performance at art exhibition in the University Chapel" height="200px"> <img src="photos/pics/chapel3BW179px.jpg" alt="Photo of tango performance at art exhibition in the University Chapel" height="200px"> <img src="photos/pics/chapel0BW179px.jpg" alt="Photo of tango performance at art exhibition in the University Chapel" height="200px"> 
-<br><span class="caption">Classical performance at the art exhibition in the University Chapel &ndash; photos by Stewart Ennis</span></p>
+        });
+</script>
+</p>
+<!-- END of Slideshow -->
 
-<h2 class="h2page">Performance programs</h2> 
-<p>We have developed three programs which capture the splendour of the tango:</p>
+<p>We perform the <span class="emphasis">authentic Argentinean tango</span> in the style of the 1940s, the era of the great tango orchestras &ndash; unique in Scotland.</p>
 
-<ul>
-<li class="listitem"><span class="emphasis">Authentic Argentinian Tango Program</span>
-<br>A taste of the three styles of authentic tango: Tango de Salon, Tango Vals and Milonga. [<a href="#classic">Read more and view photos</a>]<br><br>
-</li>
-<li class="listitem"><span class="emphasis">Theatrical Tango Program</span>
-<br>Two theatrical pieces ("Romance" and "Gangster Rendez-Vous") and an authentic Tango de Salon performance. [<a href="#theatrical">Read more and view photos</a>]
-<br><br></li>
-<li class="listitem"><span class="emphasis">Live Authentic Argentinian Tango Program</span>
-<br>Authentic tango performance with live music by tango ensenble The Appassionados. [<a href="#classic">Read more</a>]
-<br><br></li>
-</ul>
-<p>We can also work with you to develop a custom program.</p>
+<h2 class="h2page">Performance programmes</h2> 
+<p>
 
+We offer several programmes which capture the splendour of the tango. Our Authentic Argentinian Tango programme includes the three styles of authentic tango: Tango de Salon, Tango Vals and Milonga. Our unique Theatrical Tango programme combines a dance performance with a theatrical story.</p>
+<p>
+We perform to recorded music or &mdash; for the ultimate stylish touch &mdash;  to live music with tango group The Appassionados, an ensemble of professional musicians. The repertoire covers works by the world-renowned tango composer Astor Piazzolla. We can work with you to create a custom program for your event.
+</p>
 
+<!--<div class="seealso"><img src="images/small_bullets_right.gif" alt=""><a href="videos/index.html#pagecontent" class="seealsolink">-->
+<div class="seealso">
+<img src="images/small_bullets_red.gif" alt="">
+<a href="videos/index.html#pagecontent" class="seealsolink"> View videos</a>
+</div>
 
-
-<h2 class="h2page" id="classic">Authentic tango performances &ndash; to recorded music or with tango ensemble The Appassionados</h2>
-<p>We perform to recorded music or, for the ultimate stylish touch, to live music with tango group <span class="emphasis">The Appassionados</span> (cello, violin, piano and sax). </p>
-
-
-<p>The Appassionados is an ensemble of professional musicians. The repertoire covers works by the world-renowned tango composer Astor Piazzolla. We can work with you to create a custom program for your event.</p>
-
-<p style="text-align:center"><img src="photos/pics/teatango1ws.jpg" alt="Photo of tango performance at The Tea Spot event"> 
-<p style="text-align:center"><img src="photos/pics/teatango2ws.jpg" alt="Photo of tango performance at The Tea Spot event">
-<p style="text-align:center"><img src="photos/pics/teatango4ws.jpg" alt="Photo of tango performance at The Tea Spot event">
-
-<br><span class="caption">Tango Tipica performance at the Tea and Tango event in collaboration with The Tea Spot &ndash; as featured in The Herald</span><br></p>
-
+<h2 class="h2page" id="taster">Tango initiation</h2>
 
 <p>Make your event even more memorable with a <span class="emphasis">tango initiation for your guests</span> (taster class). It's a guaranteed way to get the party going and will be remembered long after the event.</p>
 </p>
 
-<h2 class="h2page" id="theatrical">Theatrical tango performances</h2>
-<p>Our theatrical performances, tango with a touch of acting, have proven very popular with audiences, for example at the West End Festival as opening and closing performance for the Bolshie fashion show.</p>
-<h3 class="h3page">Theatrical tango performance at Clydebank College Heritage Event</h3>
-
-<p style="text-align:center"><img src="photos/pics/theatrical_tango.jpg" alt="Photo of a theatrical tango performance at Clydebank College">
-<p style="text-align:center"><img src="photos/pics/theatre_tango.jpg" alt="Photo of a theatrical tango performance at Clydebank College">
-<p style="text-align:center"><img src="photos/pics/theatretango.jpg" alt="Photo of a theatrical tango performance at Clydebank College">
-<p style="text-align:center"><img src="photos/pics/theatricaltango.jpg" alt="Photo of a theatrical tango performance at Clydebank College">
-
-
-
-
-<!--
-<p style="text-align:center"><img src="photos/pics/performancebolshie.jpg" alt="Photo of tango performance at Bolshie">
-
-<br><span class="caption">Performance at <a href="http://www.bolshieclothing.com">Bolshie</a> (photo by <a href="http://ralphgenis4.tripod.com/">Ralph Gerald Genis</a> &ndash; thank you, Ralph!)</span> <br></p>
--->
-
-
-<h3 class="h3page"><a name="bolshie"></a>Opening performance for the Bolshie fashion show at the West End Festival</h3>
-<p style="text-align:center"><img src="photos/pics/westend_festival_2007_13.jpg" alt="Photo of a theatrical tango performance at West End Festival" width="200" height="269">
-<!-- <p style="text-align:center"><img src="photos/pics/westend_festival_2007_11.jpg" alt="Photo of a theatrical tango performance at West End Festival"> -->
-<p style="text-align:center"><img src="photos/pics/westend_festival_2007_12.jpg" alt="Photo of a theatrical tango performance at West End Festival" width="200" height="301">
-
-<br><span class="caption">Photos by Jacqueline Arundel</span></p>
-
-<!--
-<h3 class="h3page">Closing performance for the Bolshie fashion show at the West End Festival </h3>
-<p style="text-align:center"><img src="photos/pics/westend_festival_2007_21.jpg" alt="Photo of a theatrical tango performance at West End Festival" width="200" height="301">
-<!--<p style="text-align:center"><img 
--->
-<!--
-src="photos/pics/westend_festival_2007_22.jpg" alt="Photo of a theatrical tango performance at West End Festival">-->
-<!--
-<p style="text-align:center"><img src="photos/pics/westend_festival_2007_23.jpg" alt="Photo of a theatrical tango performance at West End Festival" width="200" height="301">
-<br><span class="caption">Photos by Jacqueline Arundel</span></p>
--->
-
-
-
 <h2 class="h2page">Location</h2>
 <p>
-We are available for performances (with optional taster class) throughout Scotland. For a classic performance, we need a <span class="emphasis">smooth wooden or smooth stone floor</span>, minimum 5 by 7 metres (15 by 21 feet). </p>
+For a classic performance, we need a <span class="emphasis">smooth wooden or smooth stone floor</span>, minimum 5 by 7 metres (15 by 21 feet). </p>
 
 <h2 class="h2page">Prices</h2>
-<p>Prices depend on the location of your event and on whether you would like a performance (to recorded or to live music) or a performance as well as a taster class. For non-profit organizations, we offer reduced prices. 
-<br>Dance proceeds from our performances go to children's charity Volunteer Tutor Organisation. <br>Please <a href="contact.html">contact us</a> to discuss prices.</p>
+<p>
+Prices depend on the location of your event and on whether you would like a performance (to recorded or to live music) or a performance as well as a taster class. 
+<br>Please <a href="contact.html">contact us</a> to discuss prices.</p>
 
-
-
-</div>
-<div class="seealso"><img src="images/small_bullets_right.gif" alt=""><a href="photos/index.html#pagecontent" class="seealsolink">
-View more photos</a><img src="images/small_bullets_red.gif" alt="">
-</div>
-<div class="seealso"><img src="images/small_bullets_right.gif" alt=""><a href="workshops.html#pagecontent" class="seealsolink">
-Read about our workshops</a><img src="images/small_bullets_red.gif" alt="">
-</div>
+</div><!-- pagetext --> 
 </div><!-- pagecontent --> 
 
 
 <div id="pagebottomnav">
 <br><br>
-<p class="footertext">Tango Tipica: Argentinian Tango in Glasgow&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">Last verified: 6 January 2014</p>
+<p class="footertext">Tango Tipica: Argentinian Tango in Glasgow&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">Last verified: 11 January 2014</p>
 </div><!-- pagebottomnav -->
 
 <!-- Start of StatCounter Code -->

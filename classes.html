@@ -8,6 +8,11 @@
 	<meta name="keywords" content="tango classes, Glasgow, West End, Beginners, argentine tango, argentinean tango, argentinian tango">
 	<title>Tango Classes in Glasgow</title> 
 	<link rel="stylesheet" type="text/css" href="tangotipica.css">
+	<!-- Include the basic styles -->
+	<link type="text/css" rel="Stylesheet" href="bjqs.css" >
+	<script type="text/javascript" language="Javascript">
+if (window != top) top.location.href = location.href;
+</script>
 	<script type="text/javascript" language="Javascript">
 if (window != top) top.location.href = location.href;
 </script>
@@ -25,21 +30,29 @@ if (window != top) top.location.href = location.href;
   })();
 
 </script>
+<!-- Include the jQuery library (local or CDN) -->
+<script src="js/jquery-1.7.1.min.js"></script>
+
+<!-- Include the plugin *after* the jQuery library -->
+<script src="js/bjqs-1.3.min.js"></script>
 </head>
 <body>
 
 <div id="pagenav"><a href="index.html"><img src="images/lino1.jpg"  alt="Lino drawing showing two tango dancers"></a>
 <div class="positionredbullets"><img src="images/five_white_bullets_hor.gif" alt=""></div>
 
-<ul class="pagenavigationlist"><li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="about.html#pagecontent" class="navigationlink">About us</a></li>
+<ul class="pagenavigationlist">
+<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="about.html#pagecontent" class="navigationlink">About us</a></li>
 <li class="pagenavigationsel"><img src="images/bullet_red.gif" alt="">Classes</li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="workshops.html#pagecontent" class="navigationlink">Workshops</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="teachingapproach.html#pagecontent" class="navigationlink">Our teaching approach</a></li>
+<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="ourvision.html#pagecontent" class="navigationlink">Our vision</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="performances.html#pagecontent" class="navigationlink">Performances</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="videos/index.html#pagecontent" class="navigationlink">Videos</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="contact.html#pagecontent" class="navigationlink">Contact us</a></li>
 <li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="collaboration.html#pagecontent" class="navigationlink">Tango projects</a></li>
+<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="contact.html#pagecontent" class="navigationlink">Contact us</a></li>
 </ul>
+
+
 </div><!-- pagenav -->
 <!-- ================================================ START OF PAGE CONTENT ================================================ -->
 <div id="pagecontent" >
@@ -47,9 +60,43 @@ if (window != top) top.location.href = location.href;
 <h1 class="baselinepage"><img src="images/big_bullet_red.gif" alt="">Tango classes in Glasgow</h1>
 <div class="pagetext">
 <p>Discover the true authentic Argentinean Tango as it was danced in the Salons of Buenos Aires in the Golden Age. </p>
+<p>Tango classes in Glasgow with Catherine Daniela Dogaer and Wim Taghon.</p>
 <!-- <p style="text-align:center"><img src="images/workshop2.jpg" alt="Photo of dancers at a tango workshop"></p>-->
 
-<p style="text-align:center"><img src="images/tango classes.jpg" alt="Photo of dancers at a tango class" width="50%"></p>
+<p style="text-align:center">
+
+<div id="banner-fade">
+    <ul class="bjqs">
+    <li><img src="slideshow/salon1.jpg" alt=""></li>
+    <li><img src="slideshow/class1.jpg" alt=""></li>
+    <li><img src="slideshow/salon2.jpg" alt=""></li>
+    <li><img src="slideshow/class2.jpg" alt=""></li>
+    </ul>
+</div>
+<script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 300,
+            width       : 600,
+// animation values
+animtype : 'fade', // accepts 'fade' or 'slide'
+animduration : 500, // how fast the animation are
+animspeed : 4000, // the delay between each slide
+automatic : true, // automatic
+
+	    nexttext : '<img src="./images/bullets_ss.png">', 
+	    prevtext : '<img src="./images/bullets_ss.png">', 
+	    showmarkers : false,
+            responsive  : true
+          });
+
+        });
+</script>
+
+</p>
+
+
 
 <p class="newstextborder"><span class="emphasiscolour">Fast-Track Beginners Tango Classes in Glasgow start Friday 17 January 2014 - FULLY BOOKED</span><br>
 
@@ -74,32 +121,7 @@ The Beginners Fast-Track series starts with two intensive workshops.
 We support With Kids (Big Issue Foundation Scotland) Registered charity No SC022467</span>
 <br>
 
-<!--
-<p class="newstextborder"><span class="emphasiscolour">Absolute Beginners Authentic Argentine Tango in Glasgow Westend</span><br>
-<span class="emphasis">Last chance until Autumn next year! Only place for one dance couple left. </span>
-<br>
-The series of Absolute Beginners Authentic Tango Classes begins on Friday 4 October. 
-<br>
-<br>
-<span class="emphasis">* Series:</span>
-The series consists of 8 classes on Fridays 6.15pm-7.15pm, starting Friday 4 October. 
-<br>
-<span class="emphasis">* Location: </span>Glasgow West End, in Turnbull Hall, 13-15 Southpark Terrace, Glasgow G12 8LG - <a href="#loc">details &amp; map</a>
-<br>
-<span class="emphasis">* Total fee for the series:</span> 57 GBP per person. All our proceeds go to a local children's charity.<br>
-<span class="emphasis">* Dance partners:</span> You need to enrol with a dance partner - <a href="#dp">more</a><br> 
-<span class="emphasis">* Contact:</span> <a href="mailto:contact@tangotipica.info">contact@tangotipica.info</a> / <a href="mailto:cathwim@yahoo.co.uk">cathwim@yahoo.co.uk</a><br> 
 
-<br><span class="emphasiscolour">Bookings:</span> 
-<br>
-
-You can book either:
-<br>&bull; <a name="onlinebooking"></a> <span class="emphasis">Online:</span> Via <a href="http://www.justgiving.com/TangoTipica">JustGiving to With Kids</a> - Make sure you enter your name and donate the appropriate course fee per couple.
-<br>&bull; <span class="emphasis">In person on 4 Oct at 6pm:</span> If you and your dance partner wish to take the last place, please come to the hall with the course fee (cash or cheque) at 6pm so we can book you both onto the course before the class starts.
-<br
-
-<br>
--->
 
 <br>
 <a href="#tc">Our terms and conditions</a>
@@ -115,40 +137,60 @@ You can book either:
 
 <h2 class="h2page">Why Tango Tipica is unique</h2>
 <ul>
-<li class="itemlist">Profesionally run and expertly taught classes.  </li>
+<li class="itemlist">Profesionally run and expertly taught classes. Catherine Daniela Dogaer and Wim Taghon have been dancing the Authentic Tango for 17 years and teaching in Glasgow for 10 years - the longest running Tango classes in Glasgow.</li>
 <li class="itemlist">Everyone enrols with a dance partner so no one needs to sit out. No compulsory partner rotation.</li>
-<li class="itemlist">Catherine Dogaer & Wim Taghon have been dancing the Authentic Tango for 17 years and have been teaching in Glasgow for 10 years in a row - the longest running Tango classes in Glasgow.</li>
-<li class="itemlist">They received many years of formal training by established, world-class Tango teachers.</li>
+<li class="itemlist">Catherine & Wim received many years of formal training by established, world-class Tango teachers.</li>
 <li class="itemlist">They dance and teach the Authentic Argentinian Tango as it was danced in Buenos Aires in the 1940s &mdash; unique in Scotland.</li>
 <li class="itemlist">They teach in small groups so every dance couple gets personal attention.</li>
 <li class="itemlist">Over the years Catherine & Wim have developed a unique teaching methodology which is varied and engaging, and will help you fulfil your potential in a fun and relaxed way.</li>
 <li class="itemlist">The dance hall is spacious and bright, with a great floor and in a central Westend location (excellent transport links and free parking).</li>
-<li class="itemlist">Feel good: Tango Tipica donates all its proceeds to charity.</li>
+<li class="itemlist">Feel good: Tango Tipica donates all its proceeds from classes to charity.</li>
 </ul>
 
+<br>
 
-<h2 class="h2page">What our pupils are saying</h2>
-<p class="newstextborder">
-Tom & Joyce: "If you are looking to learn tango this is the place to go. Restriction on numbers ensures lots of personal attention and opportunities to practise the steps under the expert eyes of Catherine and Wim. The dance is broken down during teaching, making what may appear a very difficult move simple. The venue is central for transport links and has a lovely wooden floor for dancing. Top qualities: Expert , Good Value" <a href="http://www.linkedin.com/profile/view?id=222453689&trk=hb_tab_pro_top" target="_blank">On LinkedIn</a></p>
+<p  style="text-align:center">
+<div id="testimonials">
+    <ul class="bjqs">
+    <li>
+    <table align="center" width="85%">
+      <tr><td><img src="slideshow/DK.jpg" alt=""></td><td class="testimonialtext">Dean & Karolina: "We keep telling everyone you guys should teach others how to teach as you are so good at what you do :). With your attitude and enthusiasm I feel sorry for everyone who isn't enrolled in your classes haha they miss out on life's great pleasure." (Dec  2012) Via email</td></tr>
+      <tr><td><img src="slideshow/LC.jpg" alt=""></td><td class="testimonialtext">Lesley & Craig: "Catherine and Wim are fabulous instructors. They explain the moves really well, encourage you and also allow you to express your own style when you become more confident. I highly recommend this tango class :)" (Jan  2013, dancing with Tango Tipica since 2010) <a href="http://www.facebook.com/permalink.php?story_fbid=286092338087814&id=160151457348570&comment_id=3999915&offset=0&total_comments=2#!/pages/Tango-Tipica-Glasgow/160151457348570" target="_blank">On Facebook</a></td></tr>
+    </table>
+    </li>
+    <li>
+    <table width="85%" align="center" >
+      <tr ><td><img src="slideshow/TL.jpg" alt=""></td><td class="testimonialtext">Tunde & Lindsey: "I have been to lots of dancing classes over the years and tried Tango a couple of times before. Catherine and Wim are fantastic teachers and make a dance I previously found very difficult far easier. A great way to spend a Friday early evening." <a href="http://www.facebook.com/permalink.php?story_fbid=286092338087814&id=160151457348570&comment_id=3999915&offset=0&total_comments=2#!/pages/Tango-Tipica-Glasgow/160151457348570" target="_blank">On Facebook</a></td></tr>
+      <tr ><td><img src="slideshow/TE.jpg" alt=""></td><td class="testimonialtext">Tom & Emilie: "Their class is very enjoyable, while they are approachable and friendly. Very fast learning, with almost immediate 'results' too." (Sept 2013) <a href="https://www.facebook.com/emiliecombet/posts/10151925468649772?ref=notif&notif_t=story_reshare" target="_blank">On Facebook</a></td></tr>
+    </table>
+    </li>
+    </ul>
+</div>
+<script class="secret-source">
+        jQuery(document).ready(function($) {
 
-<p class="newstextborder">Tom & Emilie: "Their class is very enjoyable, while they are approachable and friendly. Very fast learning, with almost immediate 'results' too." (Sept 2013) <a href="https://www.facebook.com/emiliecombet/posts/10151925468649772?ref=notif&notif_t=story_reshare" target="_blank">On Facebook</a></p>
-<p class="newstextborder">
-Lesley & Craig: "Catherine and Wim are fabulous instructors.. they explain the moves really well, encourage you and also allow you to express your own style when you become more confident. I highly recommend this tango class :)" (Jan  2013, dancing with Tango Tipica since 2010) <a href="http://www.facebook.com/permalink.php?story_fbid=286092338087814&id=160151457348570&comment_id=3999915&offset=0&total_comments=2#!/pages/Tango-Tipica-Glasgow/160151457348570" target="_blank">On Facebook</a></p>
+          $('#testimonials').bjqs({
+            height      : 256,
+            width       : '100&',
+	    // animation values
+	    animtype : 'fade', // accepts 'fade' or 'slide'
+	    animduration : 500, // how fast the animation are
+	    animspeed : 6000, // the delay between each slide
+	    automatic : true, // automatic
 
-<p class="newstextborder">Dean & Karolina: "Thanks for your nice words, we keep telling everyone you guys should teach others how to teach as you are so good at what you do :). With your attitude and enthusiasm I feel sorry for everyone who isn't enrolled in your classes haha they miss out on life's great pleasure." (Dec  2012) Via email</p>
+	    nexttext : '<table><tr><td valign="middle" height="256px"><img src="./images/bullets_ss.png"></td></tr></table>', 
+	    prevtext : '<table><tr><td valign="middle" height="256px"><img src="./images/bullets_ss.png"></td></tr></table>', 
+	    //prevtext : '<img src="./images/bullets_ss.png"><br><br><br><br><br><br>', 
+	    showmarkers : false,
+            responsive  : true
+          });
 
-<p class="newstextborder">Tunde & Lindsey: "I have been to lots of dancing classes over the years and tried Tango a couple of times before. Catherine and Wim are fantastic teachers and make a dance I previously found very difficult far easier. A great way to spend a Friday early evening." <a href="http://www.facebook.com/permalink.php?story_fbid=286092338087814&id=160151457348570&comment_id=3999915&offset=0&total_comments=2#!/pages/Tango-Tipica-Glasgow/160151457348570" target="_blank">On Facebook</a></p>
+        });
+</script>
+</p>
+<br>
 
-<p class="newstextborder">
-Enrique & Monica: "Monica and I made a few false starts with Tango before we found Catherine & Wim. They provide an excellent learning environment and as a couple they give great insight into both leader and follower aspects of the dance. If you really want to make progress in this wonderful dance join their class." (Oct 2011) <a href="http://www.facebook.com/pages/Tango-Tipica-Glasgow/160151457348570?v=wall#!/permalink.php?story_fbid=286092338087814&id=160151457348570&comment_id=3999915&offset=0&total_comments=2" target="_blank">On Facebook</a></p>
-
-<p><a href="testimonials.html#pageconten">Read more testimonials</a></p>
-
-
-
-
-
-<a name="info"></a><h2 class="h2page">Class schedule 2013-2014</h2>
+<a name="info"></a><h2 class="h2page">Class schedule 2014</h2>
 <!--
 <p><span class="emphasiscolour">Current pupils:</span> <a href=""><input type="submit" value="Login"></a> for event dates and announcements</p>-->
 
@@ -166,17 +208,7 @@ Enrique & Monica: "Monica and I made a few false starts with Tango before we fou
 <th id="header4">Location</th>
 </tr>
 
-<!--
-<tr>
-<td headers="header2" rowspan="2">September 2008 to December 2008</td>
-<td headers="header1"><span class="emphasis">Absolute beginners</span> - <br>
-contact us to be added to the mailing list: <a href="mailto:contact@tangotipica.info" class="textnavlink">contact@tangotipica.info</a>
-<br>(<a href="#what">Tango: the thing for you?</a>)</td>
-<td headers="header0"><span class="emphasis">Mondays</span>, early group: 6:30-7:30<br>late group: 7:30-8:30</td>
-<td headers="header3">series of 9 sessions, includes <span class="emphasis">free taster class</span></td>
-<td headers="header4">Glasgow West End</td>
-</tr>
--->
+
 
 
 <tr>
@@ -213,11 +245,7 @@ contact us to be added to the mailing list: <a href="mailto:contact@tangotipica.
 </tr>
 <tr>
 <td headers="header2" rowspan="2">September 2014 to December 2014</td>
-<!--
-<td headers="header1"><span class="emphasis">Absolute beginners</span> - <span class="emphasiscolour">now closed </span> - <br>
-contact us to be added to the mailing list: <a href="mailto:contact@tangotipica.info" class="textnavlink">contact@tangotipica.info</a>
-<br>(<a href="#what">Tango: the thing for you?</a>)</td>
--->
+
 <td headers="header1"><span class="emphasiscolour">Absolute beginners:</span> no dance experience
 <br>(<a href="#what">Tango: the thing for you?</a>)</td>
 
@@ -260,7 +288,6 @@ contact us to be added to the mailing list: <a href="mailto:contact@tangotipica.
 
 
 
-<!--We would recommend to bring monies along to the taster as previous years there has been a waiting list and bookings are on a first-come first-serve basis.-->
 
 
 
@@ -272,12 +299,12 @@ You're warned, once you're dancing, it's a passion for life!
 </p>
 
 
-<h2 class="h2page">Which Tango?</h2>
-<p>Forget Strictly Come Dancing, you will learn the Authentic Argentinian Tango as it was danced in the salons of Buenos Aires in the Golden Age. A dance with subtle movements and infinite variety...</p>
-
-
 <h2 class="h2page"><a name="ds"></a>What to bring to the class</h2>
 <p>You don't need dancing shoes but bring a pair of closed-toe shoes with <span class="emphasis">smooth soles</span> if you can (leather or other smooth material) [<a href="shoes/index.html">read more about dancing shoes</a>]. It may be a good idea to bring also a bottle of water.</p>
+
+
+<h2 class="h2page"><a name="ds"></a>Tango music</h2>
+<p>Check out our quick guide to <a href="music/index.html">tango music</a>.</p>
 
 
 <h2 class="h2page"><a name="tc"></a>Our terms and conditions</h2>
@@ -297,40 +324,14 @@ dance hall.</li>
 <br><br>
 
 </div> <!-- end pagetext -->
-<div class="seealso"><img src="images/small_bullets_right.gif" alt=""><a href="workshops.html#pagecontent" class="seealsolink">
-Read about our workshops</a><img src="images/small_bullets_red.gif" alt="">
-</div>
+
 </div><!-- pagecontent --> 
 <!-- ================================================ END OF PAGE CONTENT ================================================ -->
 
 <div id="pagebottomnav">
-<!--
-<ul class="taglist">
-<li class="tags"><span class="emphasis">Tags:</span> authentic argentinian tango &ndash; argentinean tango &ndash; argentine tango &ndash; tango argentino &ndash; tango de salon &ndash; </li>
-<li class="tags">milonga &ndash; </li>
-<li class="tags">tango vals &ndash; tango waltz &ndash; </li>
-<li class="tags">tango classes in Glasgow&ndash; lessons &ndash; teacher &ndash; dance school &ndash; </li>
-<li class="tags">in Glasgow West End &ndash; Scotland &ndash; UK</li>
-</ul>
 
-<ul class="textnavlist">
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="index.html" class="textnavlink">Home</a></li>
-
-<li class="textnavsel"><img src="images/single_bullet_red.gif" alt="">Classes</li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="workshops.html#pagecontent" class="textnavlink">Workshops</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="private.html#pagecontent" class="textnavlink">Private tuition</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="teachingapproach.html#pagecontent" class="textnavlink">Teaching approach</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="performances.html#pagecontent" class="textnavlink">Performances</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="collaboration.html#pagecontent" class="textnavlink">Collaboration</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="photos/index.html#pagecontent" class="textnavlink">Photos</a> and <a href="videos/index.html#pagecontent" class="textnavlink">videos</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt="">Extras: <a href="music/index.html#pagecontent" class="textnavlink">music</a>, <a href="shoes/index.html#pagecontent" class="textnavlink">shoes</a> and <a href="history/index.html#pagecontent" class="textnavlink">history</a> </li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="links.html#pagecontent" class="textnavlink">Links</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="about.html#pagecontent" class="textnavlink">About</a></li>
-<li class="textnav"><img src="images/single_bullet.gif" alt=""><a href="contact.html#pagecontent" class="textnavlink">Contact us</a></li>
-</ul>
--->
 <br><br>
-<p class="footertext">Tango Tipica: Argentinian Tango in Glasgow&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">Last verified: 6 January 2014</p>
+<p class="footertext">Tango Tipica: Argentinian Tango in Glasgow&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">Last verified: 11 January 2014</p>
 </div><!-- pagebottomnav -->
 
 <!-- Start of StatCounter Code -->
