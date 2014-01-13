@@ -70,7 +70,7 @@ img {border: solid 0px black}
 .newslistitem {margin: 0px 0px 0px 0px; padding: 0px}
 .listintro {margin: 0px 0px 0px 32px}
 
-.testimonialtext {font-size: 0.9em; font-weight: normal; padding: 15px; }
+.testimonialtext {font-size: 0.9em; font-weight: normal; padding: 0px; padding-left: 15px; }
 .footertext {font-size: 0.8em; font-weight: normal; text-align: right; }
 .emphasis {font-weight: bold;}
 .emphasiscolour {font-weight: bold; color: #AA0000;}
