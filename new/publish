@@ -1,0 +1,2 @@
+cp _config.yml.publish _config.yml
+jekyll build --watch -d ~/Other/TT/GitHub/website/new/
