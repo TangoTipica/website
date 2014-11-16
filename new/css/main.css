@@ -2202,7 +2202,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   background-color: #ed7669; }
 
 .btn-social {
-  color: #eeeeee !important;
+  color: black !important;
   border: 1px solid #ddd !important; }
 .btn-social:visited, .btn-social:active {
   color: #eeeeee; }
