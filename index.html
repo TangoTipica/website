@@ -1,38 +1,58 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
-	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-	<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
-	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-<meta name="description" content="Authentic Tango in Glasgow Westend. Tango as danced in the Salons of Buenos Aires in the Golden Age. Leading tango school in Glasgow. Professionally run tango classes, longest running tango classes in Glasgow. Fun, quality classes with experienced teachers. Everyone enrols with a dance partner. No partner rotation.">
-	<meta name="keywords" content="Glasgow tango classes, workshops, performances, argentine tango, argentinean tango, argentinian tango, Tango Tipica, tango academy">
-        <meta name="google-site-verification" content="v_3lGsyIytMdmrLVpWHUNTLG9LLQ4anaXirOq2bfeaQ" />
-	<title>Glasgow Tango Tipica ::  Authentic Argentine Tango in Glasgow</title> 
-	<link rel="stylesheet" type="text/css" href="tangotipica.css">
-<!-- Include the basic styles -->
-	<link type="text/css" rel="Stylesheet" href="bjqs.css" >
-	<script src="foldout.js" type="text/javascript" language="Javascript"></script>
-	<script src="control_sound.js" type="text/javascript" language="Javascript"></script>
-<script type="text/javascript" language="Javascript">
-if (window != top) top.location.href = location.href;
-/*
-First time on this page (in this session): play the sound
-Next time: don't play
-Check: 
-*/
-var ok_to_play=false;
-if (exists_cookie()) {
-//don't play
-ok_to_play=false;
-//alert('NOK');
-} else {
-set_cookie(); 
-//alert('OK');
-ok_to_play=true;
-}
-</script>	
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Authentic Argentinian Tango in Glasgow • Glasgow Tango Tipica</title>
+    <meta name="description" content="Authentic Tango in Glasgow Westend. Tango as danced in the Salons of Buenos Aires in the Golden Age. Leading tango school in Glasgow. Professionally run tango classes, longest running tango classes in Glasgow. Fun, quality classes with experienced teachers. Everyone enrols with a dance partner. No partner rotation.">
+    <meta name="keywords" content="Glasgow tango classes, workshops, performances, argentine tango, argentinean tango, Tango Tipica, Tango Typica">
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Authentic Argentinian Tango in Glasgow">
+	<meta name="twitter:description" content="Authentic Tango in Glasgow Westend. Tango as danced in the Salons of Buenos Aires in the Golden Age. Leading tango school in Glasgow. Professionally run tango classes, longest running tango classes in Glasgow. Fun, quality classes with experienced teachers. Everyone enrols with a dance partner. No partner rotation.">
+	<meta name="twitter:site" content="@tangotipica">
+	<meta name="twitter:creator" content="@tangotipica">
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://www.tangotipica.info/images/TT_site_bg_1700s.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Authentic Argentinian Tango in Glasgow">
+	<meta property="og:description" content="Authentic Tango in Glasgow Westend. Tango as danced in the Salons of Buenos Aires in the Golden Age. Leading tango school in Glasgow. Professionally run tango classes, longest running tango classes in Glasgow. Fun, quality classes with experienced teachers. Everyone enrols with a dance partner. No partner rotation.">
+	<meta property="og:url" content="http://www.tangotipica.info/">
+	<meta property="og:site_name" content="Tango Tipica">
+    
 
-<script type="text/javascript">
+    <link rel="canonical" href="http://www.tangotipica.info/">
+
+    <link href="http://www.tangotipica.info/atom.xml" type="application/atom+xml" rel="alternate" title="Tango Tipica Atom Feed">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <style>
+    .sliding-menu-content {
+      top: 0;
+      right: 0;
+      text-align: center;
+      visibility: hidden;
+      height: 100%;
+      width: 100%;
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      -o-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    </style>
+
+    <link rel="stylesheet" href="http://www.tangotipica.info/css/main.css">
+<!-- Google Analytics -->    
+    <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-19948710-1']);
@@ -45,146 +65,214 @@ ok_to_play=true;
   })();
 
 </script>
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="http://www.tangotipica.info/js/vendor/html5shiv.min.js"></script>
+      <script src="http://www.tangotipica.info/js/vendor/respond.min.js"></script>
+    <![endif]-->
 
-<!-- Include the jQuery library (local or CDN) -->
-<script src="js/jquery-1.7.1.min.js"></script>
+  </head>
 
-<!-- Include the plugin *after* the jQuery library -->
-<script src="js/bjqs-1.3.min.js"></script>
-
-
-</head>
-<body onLoad="Show('musicinfo')">
-
-<div id="music" style="display: none">
-<img src="images/note.gif" alt="">&nbsp;<a href="javascript:toggle_sound()" style="display: none" id="toggleid">Stop music</a> [<a href="javascript:Show('musicinfo')">about music</a>]
-<div id="musicinfo">The sample is from '<span lang="es-ar">Clavel Rojo</span>', a tango composed by <span lang="nl">Carel Kraayenhof</span> and played by <a href="http://www.bloomline.net/canyengue"><span lang="nl">Carel Kraayenhof</span> <span lang="es-ar">y su Sexteto Canyengue</span></a>. 
-</div>
-</div>
-
-<div id="pagenav"><a href="index.html"><img src="images/lino.jpg" alt="Lino drawing showing two tango dancers"></a>
-<div class="positionredbullets"><img src="images/bullets_red.gif" alt=""></div>
-<ul class="pagenavigationlist">
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="about.html#pagecontent" class="navigationlink">About us</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="classes.html#pagecontent" class="navigationlink">Classes</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="workshops.html#pagecontent" class="navigationlink">Workshops</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="ourvision.html#pagecontent" class="navigationlink">Our vision</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="performances.html#pagecontent" class="navigationlink">Performances</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="videos/index.html#pagecontent" class="navigationlink">Videos</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="collaboration.html#pagecontent" class="navigationlink">Tango projects</a></li>
-<li class="pagenavigation"><img src="images/bullet.gif" alt=""><a href="contact.html#pagecontent" class="navigationlink">Contact us</a></li>
+  <body>
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="http://www.tangotipica.info" class="site-title">Tango Tipica</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Tango Tipica</a></li>
+	
+    
+        
+    
+    <li><a href="http://www.tangotipica.info/classes/" >Classes</a></li>
+  
+    
+        
+    
+    <li><a href="http://www.tangotipica.info/about/" >About us</a></li>
+  
+    
+        
+    
+    <li><a href="http://www.tangotipica.info/contact/" >Contact us</a></li>
+  
+    
+        
+    
+    <li><a href="http://www.tangotipica.info/videos/" >Videos</a></li>
+  
+    
+        
+    
+    <li><a href="http://www.tangotipica.info/hireus/" >Hire us</a></li>
+  
 </ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" class="js-menu sliding-menu-content">
+	<ul class="menu-item">
+		<li>
+      
+        
+      
+			
+			<a href="http://www.tangotipica.info/classes/" class="title">Classes</a>
+			
+		</li><li>
+      
+        
+      
+			
+			<a href="http://www.tangotipica.info/about/" class="title">About us</a>
+			
+		</li><li>
+      
+        
+      
+			
+			<a href="http://www.tangotipica.info/contact/" class="title">Contact us</a>
+			
+		</li><li>
+      
+        
+      
+			
+			<a href="http://www.tangotipica.info/videos/" class="title">Videos</a>
+			
+		</li><li>
+      
+        
+      
+			
+			<a href="http://www.tangotipica.info/hireus/" class="title">Hire us</a>
+			
+		</li>
+	</ul>
+</nav>
+<button type="button" class="js-menu-trigger sliding-menu-button menulines-button x2" role="button" aria-label="Toggle Navigation">
+	<span class="menulines"></span>
+</button>
+
+<div class="js-menu-screen menu-screen"></div>
+
+    
+<div class="page-lead" style="background-image:url(http://www.tangotipica.info/images/TT_site_bg_1700s.jpg)">
+            
+                  <div class="wrap page-lead-content">
+        <h1>Tango Tipica</h1>
+        <h2>A passion for Authentic Argentinian Tango</h2>
+      </div>
+ 
+		</div><!-- /.page-feature -->
+    
+
+    <div id="page-wrapper">
+
+      <div id="main" role="main">     
+        <div class="wrap">
+          <div class="page-title">
+<!--            <h1>Authentic Argentinian Tango in Glasgow</h1> -->
+            <br>
+<!--            <h2>Authentic Tango in Glasgow Westend. Tango as danced in the Salons of Buenos Aires in the Golden Age. Leading tango school in Glasgow. Professionally run tango classes, longest running tango classes in Glasgow. Fun, quality classes with experienced teachers. Everyone enrols with a dance partner. No partner rotation.</h2> -->
+          </div>
+          <div class="archive-wrap">
+            <div class="page-content">
+              <h5 class="post-title"><a href="http://www.tangotipica.info/classes">New Authentic Argentinian Tango Beginners series starting Friday 16 January</a>&nbsp;&nbsp;  <a href="http://www.tangotipica.info/classes#booking" class="btn">Book now</a></h5>
+
+<div class="tiles">
+
+<article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://www.tangotipica.info/classes" title="Classes" class="post-teaser">
+  <img src="http://www.tangotipica.info/images/salon1h.jpg" alt="teaser" itemprop="image" /></a>
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="http://www.tangotipica.info/classes">Tango classes in Glasgow</a></h2>
+</article>
+
+<article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://www.tangotipica.info/testimonials" title="Testimonials" class="post-teaser">
+  <img src="http://www.tangotipica.info/images/testimonials_400x300.jpg" alt="" itemprop="image" />
+<!--  The school for people who think they can&#8217;t dance. -->
+  </a>
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="http://www.tangotipica.info/testimonials">Testimonials</a></h2>
+<!--  <p class="post-excerpt" itemprop="description">Some text here</p> -->
+</article>
 
 
-</div><!-- pagenav -->
-<!-- ================================================ START OF PAGE CONTENT ================================================ -->
-<div id="pagecontent" >
-<img src="images/ten_years_tt_transp_bw_home.png" alt="10 years Tango Tipica" align="right">
-<a href="index.html"><img src="images/logo_red.gif" alt="Tango Tipica"></a> 
+<article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://www.tangotipica.info/about" title="About" class="post-teaser">
+  <img src="http://www.tangotipica.info/images/slideshow_1h.jpg" alt="teaser" itemprop="image" /></a>
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="http://www.tangotipica.info/about">About us</a></h2>
+</article>
 
-<h1 class="baselinepage">A passion for Authentic Argentinean Tango</h1>
-
-
-<div class="homepagetext">Tango as danced in the Salons of Buenos Aires in the 1940s Golden Age. Classes, workshops and performances by Catherine Daniela Dogaer and Wim Taghon. </div>
-<br>
-<!--<div class="pagetext">-->
-<p  style="text-align:center">
-
-
-<div id="banner-fade">
-    <ul class="bjqs">
-    <li><img src="slideshow/slideshow_1.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_2.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_3.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_6.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_4.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_7.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_9.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    <li><img src="slideshow/slideshow_10.jpg" alt="Photo of Catherine & Wim dancing"></li>
-    </ul>
 </div>
-<script class="secret-source">
-        jQuery(document).ready(function($) {
+<!-- /.tiles -->
 
-          $('#banner-fade').bjqs({
-            height      : 300,
-            width       : 600,
-// animation values
-animtype : 'fade', // accepts 'fade' or 'slide'
-animduration : 500, // how fast the animation are
-animspeed : 4000, // the delay between each slide
-automatic : true, // automatic
+<div class="tiles">
 
-	    nexttext : '<img src="./images/bullets_ss.png">', 
-	    prevtext : '<img src="./images/bullets_ss.png">', 
-	    showmarkers : false,
-            responsive  : true
-          });
+<article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://www.tangotipica.info/contact" title="Contact us" class="post-teaser">
+  <img src="http://www.tangotipica.info/images/contact_400x300.jpg" alt="teaser" itemprop="image" /></a>
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="http://www.tangotipica.info/contact">Contact us</a></h2>
+</article>
 
-        });
-</script>
-</p>
-
-<p class="newstextborder">Looking for an original and feel-good <span class="emphasis">Christmas present</span> for two? How about a giftvoucher for our <a  class="emphasis" href="classes.html">Authentic Argentine Tango Beginners series starting in January</a>? Limited number of places available<D-r>! Catherine & Wim have been teaching their popular Beginners series for ten years in a row. An absolute must if you want to learn the Authentic Tango!
-
-<br>By  <a  class="emphasis" href="classes.html">booking online</a> you support local children's charity With Kids at the same time! <a href="mission.html">Why are we donating our proceeds to charity?</a>.
-<br>Everyone books with a dance partner &mdash; no compulsory partner rotation. 
-
-<!-- <a href="classes.html">Read more about our tango classes in Glasgow</a>. --> 
-<br>
-
-<br>
-<a href="http://www.facebook.com/pages/TangoTipica/160151457348570"><img src="images/facebook.png" alt="Visit us on Facebook"></a><a href="http://www.twitter.com/TangoTipica"><img src="images/twitter.png" alt="Follow us on Twitter"></a><a href="http://www.youtube.com/watch?v=-Lr5lBDmAqg"><img src="images/yt-logo-circle.png" alt="Watch us on YouTube"></a>
-</p>
+<article class="tile" itemscope="" itemtype="http://schema.org/Article">
+<!--<iframe src="//player.vimeo.com/video/91152097" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+-->
+<iframe width="400" height="300" src="//www.youtube.com/embed/-Lr5lBDmAqg" frameborder="0" allowfullscreen=""></iframe>
+<!--
+width="560" height="315"
+  <a href="http://www.tangotipica.info/videos" title="Videos" class="post-teaser">
+  <img src="http://www.tangotipica.info/images/perf.jpg" alt="teaser" itemprop="image">
+  </a>
+  -->
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="http://www.tangotipica.info/videos">Videos</a></h2>
+</article>
 
 
+<article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://www.tangotipica.info/vision" title="Our vision" class="post-teaser">
+  <img src="http://www.tangotipica.info/images/our_vision400x300.jpg" alt="teaser" itemprop="image" /></a>
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="http://www.tangotipica.info/vision">Our vision</a></h2>
+</article>
+
+</div>
+<!-- /.tiles -->
 
 
-<br>
+            </div><!-- /.page-content -->
+          </div class="archive-wrap"><!-- /.archive-wrap -->
+        </div><!-- /.wrap -->
+      </div><!-- /#main -->
 
-<p class="newstextborder">
-In February 2014 we set our students the "28 Days of Tango" Creative Challenge. We proudly present a selection of the creations.
-<br>
-<br>
-<iframe width="560" height="315" src="//www.youtube.com/embed/5lf2BkCgRCc?rel=0" frameborder="0" allowfullscreen></iframe>
-</p>
-
-
-
-
-<br>
-
-
-<p class="newstext">Tango Tipica supports local children's charity <a href="http://www.withkids.org.uk">With Kids</a>.</p>
-
-
-</div><!-- pagecontent --> 
-<!-- ================================================ END OF PAGE CONTENT ================================================ -->
-
-
-<div id="pagebottomnav">
-
-<p class="footertext"><span class="emphasis">music:</span> '<span lang="es-ar">Clavel Rojo</span>' by <span lang="es-ar">Sexteto Canyengue</span>&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">composer: Carel Kraayenhof <br>with kind permission from <a href="http://www.bloomline.net/canyengue"><span lang="nl">Carel Kraayenhof</span> <span lang="es-ar">y su Sexteto Canyengue</span></a></p>
-<p class="footertext"><a href="imagecredits.html">Photo credits</a></p>
-<p class="footertext">artwork &copy; Tango Tipica&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">reproduction for strictly non-commercial purposes permitted (photos excluded) <br>if credit given as follows 'Copyright&copy; Tango Tipica 2004'</p>
-<br>
-<p class="newstext" align="right">
-<a href="http://www.facebook.com/pages/TangoTipica/160151457348570"><img src="images/facebook.png" alt="Visit us on Facebook"></a> <a href="http://www.twitter.com/TangoTipica"><img src="images/twitter.png" alt="Follow us on Twitter"></a>   <a href="http://www.youtube.com/watch?v=laGVOvXyiRg"><img src="images/youtube.png" alt="Watch us on YouTube"></a>   
-</p>
-
-<p class="footertext">Tango Tipica: Argentinian Tango in Glasgow&nbsp;&nbsp;<img src="images/single_bullet.gif" alt="">Last verified: 16 June 2014</p>
-</div><!-- pagebottomnav -->
-
-<script type="text/javascript" language="Javascript">
-show_toggle();
-if (ok_to_play) {
-play_sound();
-} else {
-toggle_to_start();
-}
-</script>
-
-<!-- Start of StatCounter Code -->
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+        
+      
+			<li><a href="http://www.tangotipica.info/" >Tango Tipica</a></li>
+		
+      
+        
+      
+			<li><a href="http://www.tangotipica.info/contact/" >Contact us</a></li>
+		
+      
+        
+      
+			<li><a href="http://www.tangotipica.info/about/" >About us</a></li>
+		
+      
+        
+      
+			<li><a href="http://www.tangotipica.info/terms/" >Terms</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright"> <img src="http://www.tangotipica.info/images/lino_header.jpg">&nbsp; &#169; 2004 - 2014 <a href="http://www.tangotipica.info">Tango Tipica</a> &mdash; <a href="http://jekyllrb.com">Jekyll</a> theme <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a></p>
+    <!-- Start of StatCounter Code -->
 <script type="text/javascript" language="javascript">
 var sc_project=2524252; 
 var sc_invisible=0; 
@@ -194,5 +282,13 @@ var sc_security="2e1832c4";
 
 <script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c25.statcounter.com/counter.php?sc_project=2524252&java=0&security=2e1832c4&invisible=0" alt="blog stats" border="0"></a> </noscript>
 <!-- End of StatCounter Code -->
-</body>
+</footer>
+
+    </div>
+
+    <script src="http://www.tangotipica.info/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://www.tangotipica.info/js/main.js"></script>
+
+  </body>
+
 </html>

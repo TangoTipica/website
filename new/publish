@@ -1,2 +1,0 @@
-cp _config.yml.publish _config.yml
-jekyll build -d ~/Other/TT/GitHub/website/new/
